@@ -1,4 +1,6 @@
-<!doctype html>
+
+	  
+	  <!doctype html>
 
 <!-- так в HTML обозначаются комментарии. Выше вы видите объявление типа документа (DOCTYPE), так браузер понимает, что код ниже нужно интерпретировать как html -->
 
@@ -7,7 +9,8 @@
 <!-- зона заголовка html, тег <title> - строка, которую браузер отображает на вкладках над страницами, <meta> и <link> сообщают технические сведения для браузера, например, что файл имеет кодировку Юникод (utf-8) -->
 
 	<head>
-		<title>Личная страница Веры Кузнецовой</title>
+		<title>Личная страница Софьи Остапенко</title>
+		
 	 	<!-- Required meta tags -->
 	 	<meta charset="utf-8">
 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +25,9 @@
 	
 <!-- body - главная, содержательная часть страницы. Контент на этой странице делится на меню (nav), "шапку" (header), "подвал" (footer) и все остальное (мы заключили остаток в тег section) -->	
 	<body>
+	
+
+
 
 <!-- меню (navigation bar) -->
 
@@ -34,8 +40,8 @@
 				</div> 
 				<nav class="collapse navbar-collapse" id="bs-navbar"> 
 					<ul class="nav navbar-nav navbar-right"> 
-						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/index.html">Страница курса</a> </li> 
-						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2021/latin_2.html">Страница группы</a> </li> 
+						<li> <a href="https://www.hse.ru/ba/ling/">Страница курса</a> </li> 
+						<li> <a href="https://lingvocodes.github.io/HSEinfo/ba-ling-2024/baling_2024_lat4.html">Страница группы</a> </li> 
 <!-- поправьте номер группы в URL, если нужно (от 1 до 4) -->
 					</ul>
 				</nav> 
@@ -44,20 +50,51 @@
 
 <!-- начинается шапка. у тега header есть атрибут style, который задает цвет фона и отступы. поменяйте значения атрибутов и посмотрите, как изменится страница -->
 
-		<header style="background-color:plum; padding-top:70px; "> 
+		<header style="background-color:MediumSlateBlue; padding-top:200px; " >
+		
 			<div class="container"> 
 				<div class="row">
 					<div class="col-md-4">
 						<br><br>
 <!-- здесь и дальше нужно поменять весь содержательный текст, чтобы получилась ваша личная страница -->
-						<h1>Вера Кузнецова</h1>
-						<hr> <!-- это горизонтальная линия -->
-						<p><i>Человек, умеющий <b>создавать</i> HTML</b></p> 
+						<h1 style="font-style:oblique;style=height:10px; margin:-150px 0px 10px -10px">Софья Остапенко <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15"/>
+</svg></h1>
+                         <p style="font-style:oblique">День рождения: 27 июня &#9803;</p>
+						 <p style="font-style:oblique">Рост: 168 см</p>
+						 <p style="font-style:oblique">Тип личности: Активист INFJ-A</p>
+						 <p>current fav songs:</p>
+                         <audio controls>
+                         <source src="The_1975_-_Somebody_Else_47957186.mp3" type="audio/mpeg">
+						 </audio>
+						    <audio controls>
+                            <source src="Trevor Something - Fade Away_(audiodevil.ru).mp3" type="audio/mpeg">
+						    </audio> 
+							 <audio controls>
+                             <source src="Ultra_Sunn_-_Keep_Your_Eyes_Peeled_73724189.mp3" type="audio/mpeg">
+						     </audio>
+							  <audio controls>
+                              <source src="Ethel_Cain_-_Strangers_77880420.mp3" type="audio/mpeg">
+						      </audio>
+							 
+						 
+						  
+
+						 
+
+					
+						
+						<p style="font-style:oblique"></p>
 					</div>
 					<div class="col-md-4">
-<!-- img - тег для вставки изображений. Мы использовали атрибут style, чтобы задать размер изображения и ширину рамки-->
-<!-- Измените URL на URL вашей фотографии, а также настройте размер изображения -->
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Petrus_Christus_-_Portrait_of_a_Young_Woman_-_Google_Art_Project.jpg/368px-Petrus_Christus_-_Portrait_of_a_Young_Woman_-_Google_Art_Project.jpg" style="height:320px; margin:20px 20px 40px 20px; " >
+					<p>
+                      <img src="IMG_5939.JPG" alt="фото 1" style="height:490px; margin:-140px 100px 10px 550px; " >
+                       <img src="myphoto.jpg" alt="фото 2" style="height:490px; margin:-520px 100px 10px 150px; " >
+					   
+					       
+                    </p>
+
+
 					</div>
 				</div>
 			</div>
@@ -76,38 +113,57 @@
 						<p>Фундаментальная и прикладная лингвистика, НИУ ВШЭ, Москва</p>
 					</article>
 					<article>
-						<h3>Родной город</h3>
-						<p>Новосибирск</p>
+						<h3>Родная станица</h3>
+						<li> <a href="https://ru.wikipedia.org/wiki/Полтавская">Полтавская</a> </li>
 					</article>
 					<article>
 						<h3>Школа</h3>
 <!-- когда будете менять текст, не используйте бюрократических слов типа ГБОУ СОШ, ну пожаалуйста -->
-						<p>СУНЦ НГУ</p>
+						<p>Школа №1 имени Дунина Н.М.</p>
+						<img src="LvTWMro2F4Y.jpg" alt="фото 3" style="height:90px; margin:-520px -600px -310px 150px; " >
 					</article>
+					       <article>
+					     
+					           <h3>Random facts</h3>
+						       <p> Окончила художественную и музыкальную школы
+						       <br> Умею играть на 4 музыкальных инструментах
+						       <br> 5 лет занималась спортивно-бальными танцами
+						       <br> В 2023 году прочитала 93 книги 
+						
+					        </article>
+
 				</div>
 
 				<div class="col-md-6">
 					<article>
-						<h3>Тут можно написать</h3>
-						<p>Еще много много много много много много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						много <br>
-						всего о себе</p>
+						<h3>About me <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile-upside-down-fill" viewBox="0 0 16 16">
+  <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0M7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5M4.285 6.433a.5.5 0 0 0 .683-.183A3.5 3.5 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.5 4.5 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683M10 8c-.552 0-1 .672-1 1.5s.448 1.5 1 1.5 1-.672 1-1.5S10.552 8 10 8"/>
+</svg></h3>
+						<p>Мои любимые книги: 
+						<br> Все книги Ли Бардуго
+						<br>"Портрет Дориана Грея" - Оскар Уайльд
+						<br>"франкенштейн, или современный прометей" -Мэри Шелли
+						<br>"Отцы и дети" - И.С.Тургенев
+						<br>Любимый сериал:
+						<br>Тень и кость
+						<br>Любимые музыкальные группы и исполнители:
+						<br>The Neighbourhood, Chase Atlantic, Get Scared, Palaye Royale, Mindless Self Indulgence, Pierce The Veil, The Weeknd, Lady Gaga, Artic Monkeys, One Direction, 5 Seconds of Summer, Mother Mother, NF, Gorillaz, Too Close To Touch, Bring Me The Horizon, I See Stars, Ice Nine Kills, Bad Omens, Lana Del Rey, coldrain, Deftones, Voila, Taylor Swift, Drowning Pool, Evanescence, The 1975, Ethel Cain, Trevor Something, Three Days Grace, Thousand Foot Krutch, Sleep Token, Darci, Starset, Thirty Seconds To Mars, Mr.Kitty
+						
+						</p>
 					</article>
+					
+
 				</div>
 
 				<div class="col-md-3">
-					<h3>Я в соцсетях</h3>
+					<h3>Мои соцсети <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-heart" viewBox="0 0 16 16">
+  <path d="M9 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0m-9 8c0 1 1 1 1 1h10s1 0 1-1-1-4-6-4-6 3-6 4m13.5-8.09c1.387-1.425 4.855 1.07 0 4.277-4.854-3.207-1.387-5.702 0-4.276Z"/>
+</svg></h3>
 <!-- тег <ul> - unordered list. Еще бывает тег <ol> -->
 					<ul>
-						<li>VK</li>
-						<li>Discord</li>
-						<li>Telegram</li>
+					    <li> <a href="https://vk.com/s.ostapenko6">VK</a> </li>  
+						<li> <a href="@wraithbrk">Telegram</a></li>
+						 
 					</ul>
 				</div>
 			</div>
@@ -116,7 +172,7 @@
 <!-- это подвал. В этой части страницы обычно ставят копирайт (с помощью символа &copy;) и пишут об истории создания страницы. Поставьте свой копирайт -->
 		<footer class="bs-docs-footer"> 
 			<div class="container"> 
-				<p style="text-align:right; ">&copy; В. Кузнецова, 2024</p> 
+				<p style="text-align:right; ">&copy; С. Остапенко, 2024</p> 
 			</div>
 		</footer>
 	</body>
